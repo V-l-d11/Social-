@@ -1,0 +1,41 @@
+.dialogs {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}
+.dialogsItems {
+  background: rgb(44, 38, 38);
+  font-family: "Roboto";
+  font-size: 18px;
+  padding: 50px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.dialogsItems .active {
+  color: gold;
+}
+
+.dialog {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.main {
+  display: flex;
+  background-color: #fff;
+  margin: 15px;
+  border-radius: 30px;
+  padding: 40px;
+  color: rgb(0, 0, 0);
+}
+.massages {
+  padding: 20px;
+  font-family: "Roboto";
+}
+.pictures img {
+  padding: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+.lan {
+  padding: 17px;
+}
